@@ -12,6 +12,8 @@ Code for the paper "Extractive Medical Entity Disambiguation with Memory Mechani
 - tqdm=4.65.0
 - transformers=4.2.0
 ```
+## Data Preparation
+We conduct experiments on two real-world public biomedical datasets for MED, which are MedMentions and BC5CDR. You can download the MedMentions dataset [[here](https://github.com/chanzuckerberg/MedMentions)]and BC5CDR dataset [[here](http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/)], then unpack it in the data folder.
 
 ## Download BioBART model
 Download the [BioART-v2](https://github.com/GanjinZero/BioBART) model and place is under the root directory ./biobart.
@@ -28,15 +30,8 @@ If you want to train your own escher model you just have to run the following co
 ```bash
 
 ```
-
-All the hyperparameters are set by default to the ones utilized in the paper. If you want to 
-list them all just execute:
-```bash
-
-```
-
-```bash
-
+## Citation
+Please cite our paper if you find it helpful.
 ```
 
 ## How to Cite
