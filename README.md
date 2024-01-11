@@ -25,10 +25,6 @@ If you want to train own model you just have to run the following command in the
 ```
 If you want to evaluate the model on a dataset, just add the parameter ```--evaluate``` on the previous command.
 
-## Training
-If you want to train your own escher model you just have to run the following command:
-```bash
-
 ```
 ## Citation
 Please cite our paper if you find it helpful.
