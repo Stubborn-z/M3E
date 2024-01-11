@@ -1,25 +1,26 @@
 # Extractive Medical Entity Disambiguation with Memory Mechanism and Identified Entity Information
-Code for the paper "Extractive Medical Entity Disambiguation with Memory Mechanism and Identified Entity Information". In this paper, we propose a novel approach called Extractive Medical Entity Disambiguation with \textbf{M}emory \textbf{M}echanism and \textbf{I}dentified \textbf{E}ntity Information (\textbf{MMIE}). Specifically, we reframe MED as a text extraction task, which simultaneously accepts the entire context of medical mentions, all possible candidate entities and entity definitions, and is trained to extract the text span corresponding to the correct entity.
+Code for the paper "Extractive Medical Entity Disambiguation with Memory Mechanism and Identified Entity Information". In this paper, we propose a novel approach called Extractive Medical Entity Disambiguation with Memory Mechanism and Identified Entity Information (MMIE). Specifically, we reframe MED as a text extraction task, which simultaneously accepts the entire context of medical mentions, all possible candidate entities and entity definitions, and is trained to extract the text span corresponding to the correct entity.
 
 ## Environment Setup
-To set up the python environment for this project, we strongly suggest using the bash script ```setup.sh``` that 
-you can find at top level in this repo. This script will create a new conda environment and take care of all
-the requirements and the data needed for the project. Simply run on the command line:
 ```bash
-bash ./setup.sh
-```
-and follow the instructions.
-
-## Prediction and Evaluation
-You can disambiguate a corpus using the script ```esc/predict.py```:
-```bash
-PYTHONPATH=$(pwd) python esc/predict.py --ckpt <escher_checkpoint.ckpt> --dataset-paths data/WSD_Evaluation_Framework/Evaluation_Datasets/semeval2007/semeval2007.data.xml --prediction-types probabilistic
+- numpy=1.23.5
+- pandas=2.0.2
+- python=3.8
+- pytorch=1.9.0
+- scikit-learn=1.2.2
+- scipy=1.10.1
+- tqdm=4.65.0
+- transformers=4.2.0
 ```
 
-Where the dataset-paths that you provide to the model must be in a format that follows the one introduced by [Raganato et al. (2017)](https://www.aclweb.org/anthology/E17-1010/).
-For reference, all the datasets in the directory ```data/WSD_Evaluation_Framework``` follow this format.
-The predictions will be saved in the folder ```predictions``` with the name ```<dataset_name>_predictions.txt```.
+## Download BioBART model
+Download the BioART v1.1 model and place is under the root directory ./biobart.
 
+## Train the WSD Model on the Dataset
+If you want to train own model you just have to run the following command in the MMIE folder:
+```bash
+
+```
 If you want to evaluate the model on a dataset, just add the parameter ```--evaluate``` on the previous command.
 
 ## Training
@@ -42,6 +43,6 @@ PYTHONPATH=$(pwd) python esc/train.py --learning_rate 0.0005 --gradient_acc_step
 ```
 
 ## How to Cite
-```
+```bash
 
 ```
