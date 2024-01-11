@@ -36,5 +36,3 @@ Please cite our paper if you find it helpful.
 
 ## How to Cite
 ```bash
-
-```
