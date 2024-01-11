@@ -32,7 +32,4 @@ If you want to train your own escher model you just have to run the following co
 ```
 ## Citation
 Please cite our paper if you find it helpful.
-```
 
-## How to Cite
-```bash
