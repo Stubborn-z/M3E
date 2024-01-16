@@ -4,7 +4,7 @@ In this paper, we propose a novel approach called Extractive Medical Entity Disa
 
 
 ![](data/repo-assets/model.png)
-## Environment Setup
+## Setup
 ```bash
 - numpy=1.23.5
 - pandas=2.0.2
