@@ -5,16 +5,16 @@ In this paper, we propose a novel approach called Extractive Medical Entity Disa
 
 ![](data/repo-assets/model.png)
 ## Setup
+
+Requirements:
+* Debian-based (e.g. Debian, Ubuntu, ...) system 
+* [conda](https://docs.conda.io/en/latest/) installed
+
+Run the following command to quickly setup the env needed to run our code:
 ```bash
-- numpy=1.23.5
-- pandas=2.0.2
-- python=3.8
-- pytorch=1.9.0
-- scikit-learn=1.2.2
-- scipy=1.10.1
-- tqdm=4.65.0
-- transformers=4.2.0
+bash setup.sh
 ```
+
 ## Data Preparation
 We conduct experiments on two real-world public biomedical datasets for MED, which are MedMentions and BC5CDR. You can download the MedMentions dataset [[here](https://github.com/chanzuckerberg/MedMentions)]and BC5CDR dataset [[here](http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/)], then unpack it in the data folder.
 
