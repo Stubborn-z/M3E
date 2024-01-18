@@ -24,7 +24,7 @@ Download the [BioBART-v2](https://github.com/GanjinZero/BioBART) model and place
 ## Train the MMIE Model on the Dataset
 If you want to train own model you just have to run the following command in the MMIE folder:
 ```bash
-
+python mmie/train.py
 ```
 If you want to evaluate the model on a dataset, just add the parameter ```--evaluate``` on the previous command.
 
