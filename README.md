@@ -18,11 +18,11 @@ bash setup.sh
 ## Data Preparation
 We conduct experiments on two real-world public biomedical datasets for MED, which are MedMentions and BC5CDR. You can download the MedMentions dataset [[here](https://github.com/chanzuckerberg/MedMentions)]and BC5CDR dataset [[here](http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/)], then unpack it in the data folder. The original datasets can be downloaded from the following URLs.
 
-"`markdown
+“`markdown
 |Dataset|URLs|
 |MedMentions|[---](https://github.com/chanzuckerberg/MedMentions)|
 |BC5CDR|http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/|
-"
+“`
 
 ## Download BioBART model
 Download the [BioBART-v2](https://github.com/GanjinZero/BioBART) model and place is under the root directory ./biobart.
