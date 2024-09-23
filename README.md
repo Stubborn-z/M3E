@@ -34,7 +34,7 @@ python mmie/train.py
 If you want to evaluate the model on a dataset, just add the parameter ```--evaluate``` on the previous command.
 
 ```bash
-
+python mmie/evaluate.py
 ```
 
 ## Acknowledgement
