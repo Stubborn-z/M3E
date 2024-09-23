@@ -26,7 +26,7 @@ We conduct experiments on two real-world public biomedical datasets for MED, whi
 ## Download BioBART model
 Download the [BioBART-v2](https://github.com/GanjinZero/BioBART) model and place is under the root directory ./biobart.
 
-## Train the MMIE Model on the Dataset
+## Train the M3E Model on the Dataset
 If you want to train own model you just have to run the following command in the MMIE folder:
 ```bash
 python mmie/train.py
