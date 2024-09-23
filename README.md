@@ -20,9 +20,8 @@ We conduct experiments on two real-world public biomedical datasets for MED, whi
 
 | Dataset   |      URLs      | 
 |----------|:-------------:|
-| col 1 is |  left-aligned |
-| col 2 is |    centered   |
-| col 3 is | right-aligned |
+| MedMentions |  [left-aligned](https://github.com/chanzuckerberg/MedMentions) |
+| BC5CDR |    [centered](http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/)   |
 
 ## Download BioBART model
 Download the [BioBART-v2](https://github.com/GanjinZero/BioBART) model and place is under the root directory ./biobart.
