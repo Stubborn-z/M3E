@@ -33,4 +33,18 @@ python mmie/train.py
 ```
 If you want to evaluate the model on a dataset, just add the parameter ```--evaluate``` on the previous command.
 
+```bash
+
+```
+
+## Acknowledgement
+
+If this work is useful in your research, please cite our paper.
+```bash
+@inproceedings{ zhang-etal-2024-extractive,
+    title = "Extractive Medical Entity Disambiguation with Memory Mechanism and Memorized Entity Information",
+    author = " Guobiao Zhang, Xueping Peng, Tao Shen, Guodong Long, Jiasheng Si, Libo Qin, Wenpeng Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    year = "2024",
+}
 ```
